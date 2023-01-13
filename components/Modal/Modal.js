@@ -13,7 +13,7 @@ const Modal = ({id, onClose}) => {
       <div className={styles.modal_content}>
         <div className={styles.modal_header}>
           <span className={styles.close} onClick={onClose}>&times;</span>
-          <h2>Olá Seja Bem-vindo!</h2>
+          <h2>Olá! Seja Bem-vindo!</h2>
         </div>
         <div className={styles.modal_body}>
           <video src="videos/vinheta.mp4" className={styles.video} autoPlay muted></video>
