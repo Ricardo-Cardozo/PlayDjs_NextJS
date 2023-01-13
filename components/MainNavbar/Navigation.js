@@ -43,7 +43,7 @@ const Navigation = () => {
           <span/>
         </button>
         <h1>
-          <Link activeClass="active" to="home" spy={true} offset={-178} duration={500} className={styles.title}>Play<span>DJ's</span></Link>
+          <Link activeClass="active" to="home" spy={true} offset={-178} duration={500} className={styles.title}>Play<span>DJ&apos;s</span></Link>
         </h1>
         <nav className={styles.navHeader}>
           <NavLinks/>
