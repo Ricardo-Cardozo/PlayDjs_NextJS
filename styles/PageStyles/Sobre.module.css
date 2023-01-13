@@ -1,0 +1,173 @@
+.sobre h1 {
+  font-size: 60px;
+}
+
+.sobre p {
+  font-size: 20px;
+  margin: 1.5em;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+@media screen and (max-width: 955px) {
+  .features {
+    flex-direction: column;
+  }
+}
+
+.equipe {
+  background-color: rgb(241, 171, 79);
+  padding: 3rem;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.local {
+  background-color: rgb(241, 79, 79);
+  padding: 3rem;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.local h1 {
+  color: #fff;
+}
+
+.services {
+  background-color: rgb(201, 0, 80);
+  padding: 3rem;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.services h1 {
+  color: #fff;
+}
+
+.service_icon {
+  color: #fff;
+  font-size: 80px;
+}
+
+.local h1 {
+  color: #fff;
+}
+
+.ver_equipe {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(255, 84, 84); 
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 2em;
+  font-size: 18px;
+  transition: .5s;
+}
+
+.ver_equipe:hover {
+  background-color: rgb(255, 63, 63); 
+}
+@media screen and (max-width: 500px) {
+  .local h1 {
+    font-size: 40px;
+  }
+
+  .sobre h1 {
+    font-size: 40px;
+  }
+
+  .services h1 {
+    font-size: 40px;
+  }
+  
+  .equipe h1 {
+    font-size: 40px;
+  }
+  
+  .local p{
+    margin-bottom: 1em;
+    font-size: 16px;
+  }
+
+  .sobre p{
+    margin-bottom: 1em;
+    font-size: 16px;
+  }
+
+  .services p{
+    margin-bottom: 1em;
+    font-size: 16px;
+  }
+  .equipe p{
+    margin-bottom: 1em;
+    font-size: 16px;
+  }
+  
+  .equipe a { 
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .equipe h1 {
+    font-size: 30px;
+  }
+
+  .sobre h1 {
+    font-size: 30px;
+  }
+
+  .local h1 {
+    font-size: 30px;
+  }
+
+  .services h1 {
+    font-size: 30px;
+  }
+  
+  .equipe p {
+    font-size: 12px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .sobre p {
+    font-size: 12px;
+  }
+
+  .local p {
+    font-size: 12px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .services p {
+    font-size: 12px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .equipe a {
+    font-size: 12px;
+  }
+}
+

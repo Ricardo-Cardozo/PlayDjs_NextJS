@@ -1,0 +1,23 @@
+.footer {
+  height: 150px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000;
+  text-align: center;
+  margin-top: 2em;
+  color: #fff;
+}
+
+.span_medias {
+  font-size: 30px;
+}
+
+.span_medias a {
+  text-decoration: none;
+  color: rgb(255, 84, 84);
+}

@@ -7,6 +7,10 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <div id="side-drawer"></div>
+        <div id="close"></div>
+        <div id="backdrop"></div>
+        <div id="wpp"></div>
       </body>
     </Html>
   )
