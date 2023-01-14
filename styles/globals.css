@@ -249,3 +249,28 @@ h1 {
     height: 200px;
   }
 }
+
+.ampliar {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background-color: rgb(255, 84, 84);
+  border-radius: 3px;
+  padding: 10px;
+  transition: .5s;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+}
+
+.ampliar:hover {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background-color: rgb(241, 70, 70);
+  border-radius: 3px;
+  padding: 10px;
+  transition: .5s;
+  cursor: pointer;
+  border: none;
+}
