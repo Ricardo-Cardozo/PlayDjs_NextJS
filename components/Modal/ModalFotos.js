@@ -14,8 +14,7 @@ const ModalFotos = ({id, onClose}) => {
 
       <div className={styles.modal_content}>
         <div className={styles.modal_header}>
-          <span className={styles.close} onClick={onClose}>&times;</span>
-          <h2>Veja nossas fotos!</h2>
+          <h3>Se estiver no celular, vire a tela!</h3>
         </div>
         <CarouselFotosAmpliada/>
         <div className={styles.modal_footer}>
