@@ -130,3 +130,22 @@
     width: 250px;
   }
 }
+
+@media screen and (max-height: 500px) {
+
+  .modal_content {
+    width: 400px;
+  }
+
+  .video {
+    width: 400px;
+  }
+
+  .modal_header h2 {
+    font-size: 18px;
+  }
+
+  .deleteModal {
+    font-size: 12px;
+  }
+}

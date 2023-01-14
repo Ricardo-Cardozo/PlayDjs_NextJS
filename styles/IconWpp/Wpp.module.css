@@ -22,3 +22,14 @@
     height: 60px;
   }
 }
+
+@media screen and (max-height: 500px) {
+  .icon {
+    position: fixed;
+    top: 60vh;
+    z-index: 2;
+    display: flex;
+    text-align: end;
+    right: 0;
+  }
+}

@@ -50,3 +50,16 @@
     color: #fff;
   }
 }
+
+@media screen and (max-height: 667px), (max-width: 375px){
+
+  .navLink a {
+    color: #fff;
+    border: none;
+    padding: 10px ;
+  }
+  .navLink li {
+    margin: 1rem;
+  }
+
+}

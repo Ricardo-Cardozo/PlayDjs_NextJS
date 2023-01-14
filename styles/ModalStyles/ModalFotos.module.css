@@ -118,6 +118,32 @@
   .video {
     width: 250px;
   }
+}
 
-  
+@media screen and (max-height: 500px) {
+
+  .modal_content {
+    
+  }
+ 
+
+  .modal_header h3 {
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .modal_footer {
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .modal_header {
+    display: none;
+  }
+
+  .deleteModal {
+    display: none;
+  }
 }
